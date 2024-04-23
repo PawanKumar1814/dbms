@@ -1,0 +1,26 @@
+body {
+    background-color: #f4f7f6; 
+    color: #333; 
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,.05); /* Subtle shadow for depth */
+}
+
+.card-title {
+    color: #0056b3; /* Theme color for titles */
+}
+
+.btn-primary {
+    background-color: #0056b3; /* Deep blue background for buttons */
+    border: none; /* Removes border */
+}
+
+.btn-primary:hover {
+    background-color: #003d82; /* Darker blue on hover */
+}
